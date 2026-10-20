@@ -3,14 +3,21 @@
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@10.33.4",
-  "description": "Alfred workflow to transform CSV files between comma, semicolon, and tab delimiters.",
+  "description": "Alfred workflow to transform CSV files between comma, semicolon, and tab delimiters",
   "author": {
     "name": "Chris Spiegl",
     "email": "chris@chrisspiegl.com",
     "url": "https://chrisspiegl.com/"
   },
   "license": "MIT",
-  "repository": "chrisspiegl/alfred-csv-transform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisspiegl/alfred-csv-transform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisspiegl/alfred-csv-transform/issues"
+  },
+  "homepage": "https://github.com/chrisspiegl/alfred-csv-transform#readme",
   "keywords": [
     "alfred",
     "workflow",
